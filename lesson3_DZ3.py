@@ -1,8 +1,7 @@
 #Задание 1
 my_str = "blablacar"
 my_symbol = "bla"
-for my_symbol in my_str[:6]:
-    print(my_symbol)
+
 
 
 # Задание 2
