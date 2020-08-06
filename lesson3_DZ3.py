@@ -1,7 +1,9 @@
 #Задание 1
 my_str = "blablacar"
 my_symbol = "bla"
-print(my_symbol * my_str.count(my_symbol))
+for my_symbol in my_str:
+    if my_symbol in my_str:
+        print(b)
 
 
 
