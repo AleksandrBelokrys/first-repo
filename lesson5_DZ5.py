@@ -74,9 +74,7 @@ l_limit = "o"
 r_limit = "g"
 sub_str = my_str[(my_str.index("o")) + 1:my_str.rindex("g")]
 print(sub_str)
-
-
-
+###############################################################
 
 # Задача 10
 my_list = [2, 4, 1, 5, 3, 9, 0, 7]
