@@ -7,11 +7,11 @@
 
 ###########################
 #Задача 2
-# my_list_1 = [0, 1, 2, 3]
-# my_list_2 = [0, 1, 2, 3]
-# my_indexes = list(zip(my_list_1, my_list_2))
-# for index in my_indexes:
-#     print(index)
+my_list_1 = [0, 1, 2, 3]
+my_list_2 = [0, 1, 2, 3]
+my_indexes = list(zip(my_list_1, my_list_2))
+for index in my_indexes:
+    print(index)
 
 ###############################################
 #Задача 3
