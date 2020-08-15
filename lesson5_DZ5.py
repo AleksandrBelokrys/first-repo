@@ -34,15 +34,15 @@ print(my_result)
 #############################################
 # Задача 4
 my_list = [1, 2, 3, 4]
-my_list_new = []
-for value in my_list:
-    my_list_new.append(value)
-my_list_new.insert(len(my_list_new), my_list_new.pop(0))
+my_list_new = my_list.copy()
+my_list_new.append(my_list_new.pop(0))
 print(my_list_new)
+
 ############################################################
 # Задача 5
+
 my_list = [1, 2, 3, 4]
-my_list.insert(len(my_list), my_list.pop(0))
+my_list.append(my_list.pop(0))
 print(my_list)
 #############################################################
 # Задача 6
@@ -88,7 +88,7 @@ print(sub_str)
 my_list = [2, 4, 1, 5, 3, 9, 0, 7]
 count = 0
 for x in range(1, len(my_list) - 1):
-    if my_list[x-1] < my_list[x] > my_list[x+1]:
+    if max(my_list[x-1], my_list[x+1]) < my_list[x]:
         count += 1
 print(count)
 
