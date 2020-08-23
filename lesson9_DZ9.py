@@ -1,5 +1,5 @@
-from os import listdir, mkdir, rename, chdir, walk
-from os.path import isfile, join, isdir, exists, dirname, basename
+from os import listdir, mkdir, rename
+from os.path import isfile, join, isdir, dirname, basename
 
 
 
@@ -37,7 +37,6 @@ def create_folder(path):
 
 
 
-print(create_folder(r"D:\newfolder"))
 
 
 
@@ -46,10 +45,4 @@ print(create_folder(r"D:\newfolder"))
 
 
 
-# print(path_dict(r"C:\Users\Admin\PycharmProjects\first\first-repo"))
 
-# print(name_and_folder_path(r"C:\Users\Admin\PycharmProjects\first\first-repo\testfile.ext"))
-
-# print(name_and_folder_path(r'C:\Users\Admin\PycharmProjects\first\first-repo\lesson9_DZ9.py'))
-
-# print(file_list(r'C:\Users\Admin\PycharmProjects\first\first-repo'))
