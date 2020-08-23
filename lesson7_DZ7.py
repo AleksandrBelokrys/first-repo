@@ -13,7 +13,6 @@ def my_print_2(x: str, y="*", c="***"):
     return f"{y.ljust(len(c+x+c), '*')}\n{c+x+c}\n{y.ljust(len(c+x+c), '*')}"
 
 
-
 #Задача 1
 my_list = [i for i in range(1, 100)]
 my_list = random.sample(my_list, 20)
