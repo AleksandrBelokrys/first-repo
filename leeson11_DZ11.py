@@ -30,7 +30,7 @@ def sort_by_surname(filename_with_path):
 def sort_by_date_of_death(filename_with_path):
     data = read_json(filename_with_path)
 
-    # поиск даты из BC.
+    # поиск даты с BC.
     pattern_bs = re.compile(r'(\d+) .{2,3}$')
 
     # поиск даты без BC.
