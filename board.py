@@ -48,6 +48,27 @@ class Board(object):
 
 
 
+
+    def remowe_piece(self, position: str) -> None:
+        width, height = self._conv_position(position)
+
+        if self.board[width][height]:
+            self.board[width][height] = None
+        else:
+            raise ValueError("There is no chess piece in this position!")
+
+
+
+
+
+
+
+
+
+
+
+
+
 my_board = Board(8, 8)
 
 pawn1 = Pawn("while", "A1")
